@@ -31,4 +31,5 @@ module.exports = {
    userModel: userModel,
     courseModel: courseModel,
     purchaseModel: purchaseModel,
+
 }
