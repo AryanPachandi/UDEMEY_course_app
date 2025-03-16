@@ -18,7 +18,7 @@ app.use("/api/v1/admin", adminRouter);
 app.use("/api/v1/auth", authRouter);
 
 async function main() {
-    await mongoose.connect("mongodb+srv://pachandiaryan:kIYEHHvtlC5s09NT@aryanpachandi.bew7r.mongodb.net/UDEMEY_COURSE" );
+    await mongoose.connect("" );
     app.listen(3000);
     console.log("App is running");
 }
